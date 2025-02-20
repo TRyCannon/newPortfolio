@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Cannon - Web Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <div class="container">
+        <img src="profile.jpg" alt="Ryan Cannon">
+        <div>
+          <h1>About Me</h1>
+          <p>Hi, I'm Ryan Cannon, a passionate web developer with a focus on creating clean, user-friendly websites. I have experience with HTML, CSS, JavaScript, and various frameworks. Check out my projects below to see what I've been working on.</p>
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <h1>Projects</h1>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="project1.jpg" alt="Project 1" loading="lazy">
+            <h3>Project One</h3>
+            <p>A brief description of Project One.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <a href="#">Live Site</a>
+            <a href="#">GitHub</a>
+          </div>
+          <div class="project-card">
+            <img src="project2.jpg" alt="Project 2" loading="lazy">
+            <h3>Project Two</h3>
+            <p>A brief description of Project Two.</p>
+            <p><strong>Technologies:</strong> React, Node.js</p>
+            <a href="#">Live Site</a>
+            <a href="#">GitHub</a>
+          </div>
+          <div class="project-card">
+            <img src="project3.jpg" alt="Project 3" loading="lazy">
+            <h3>Project Three</h3>
+            <p>A brief description of Project Three.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <a href="#">Live Site</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h1>Contact</h1>
+        <form id="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <p>You can also reach me at <a href="mailto:ryan@example.com">ryan@example.com</a> or connect with me on <a href="#">LinkedIn</a> and <a href="#">GitHub</a>.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Ryan Cannon. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
